@@ -1,0 +1,46 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style donor and recipient sections */
+section {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style donor section */
+.donor {
+    background-color: #27ae60;
+    color: white;
+}
+
+/* Style recipient section */
+.recipient {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Style paragraph text */
+p {
+    margin: 5px 0;
+}
+
+/* Center the sections on larger screens */
+@media (min-width: 768px) {
+    section {
+        margin: 20px auto;
+        width: 50%;
+    }
+}

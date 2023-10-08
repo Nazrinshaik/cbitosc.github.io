@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organ Donation Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Organ Donation Website</h1>
+    </header>
+    <nav>
+        <!-- Add navigation links here if needed -->
+    </nav>
+    <main>
+        <section id="donation-info">
+            <h2>About Organ Donation</h2>
+        <p>
+            Donating
+        </p>
+        </section>
+        <section id="donor-form">
+            <h2>Become a Donor</h2>
+            <p>Fill out the form below to become an organ donor.</p>
+            <form action="process_form.php" method="POST">
+                <label for="name">Name:</label></form><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label><br>
+                
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="organs">Organs to Donate:</label><br>
+
+                <textarea id="organs" name="organs" required></textarea><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Organ Donation Website</p>
+    </footer>
+</body>
+</html>
